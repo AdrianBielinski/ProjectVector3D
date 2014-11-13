@@ -47,7 +47,7 @@ public class Vector3D {
      * @return długość wektora
      */
     public double length() {
-        return Math.sqrt(x*x+y*y+y*z);
+        return Math.sqrt(x*x+y*y+z*z);
     }//public double lenght 
     
     /**
